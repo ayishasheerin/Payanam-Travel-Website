@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Payanam</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-regular fa-compass"></i>
+            <span>Payanam</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Explore</a>
+            <a href="#">Experiences</a>
+            <a href="#">Places to stay</a>
+            <a href="#">Saved</a>
+
+            <div class="currency">
+                <i class="fa-solid fa-globe"></i>
+                <span>INR</span>
+            </div>
+
+            <button class="signin">Sign in</button>
+        </div>
+
+        <div class="mobile-icons">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-heading">DISCOVER • EXPLORE • EXPERIENCE</p>
+
+        <h1>Go somewhere worth remembering.</h1>
+
+        <p class="hero-text">
+            Discover inspiring places, memorable experiences and stays
+            that make every journey special.
+        </p>
+
+        <div class="search-box">
+
+            <div class="search-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <span>Where</span>
+                    <strong>Search destinations</strong>
+                </div>
+            </div>
+
+            <div class="search-item">
+                <i class="fa-regular fa-calendar"></i>
+                <div>
+                    <span>When</span>
+                    <strong>Add dates</strong>
+                </div>
+            </div>
+
+            <div class="search-item">
+                <i class="fa-solid fa-user-group"></i>
+                <div>
+                    <span>Who</span>
+                    <strong>Add travellers</strong>
+                </div>
+            </div>
+
+            <button class="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="categories">
+
+    <div class="category active">
+        <i class="fa-solid fa-compass"></i>
+        <span>Explore</span>
+    </div>
+
+    <div class="category">
+        <i class="fa-solid fa-hotel"></i>
+        <span>Hotels</span>
+    </div>
+
+    <div class="category">
+        <i class="fa-solid fa-utensils"></i>
+        <span>Restaurants</span>
+    </div>
+
+    <div class="category">
+        <i class="fa-solid fa-person-hiking"></i>
+        <span>Activities</span>
+    </div>
+
+    <div class="category">
+        <i class="fa-solid fa-camera"></i>
+        <span>Attractions</span>
+    </div>
+
+    <div class="category">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <span>Guides</span>
+    </div>
+
+</section>
+
+
+<section class="filter-section">
+
+    <div class="filter-title">
+        <span>Find your perfect experience</span>
+        <small>Explore places based on what you love.</small>
+    </div>
+
+    <div class="filters">
+
+        <select>
+            <option>Price range</option>
+            <option>Under ₹1,000</option>
+            <option>₹1,000 - ₹3,000</option>
+            <option>₹3,000 - ₹5,000</option>
+            <option>Above ₹5,000</option>
+        </select>
+
+        <select>
+            <option>Rating</option>
+            <option>4.5 & above</option>
+            <option>4.0 & above</option>
+            <option>3.5 & above</option>
+        </select>
+
+        <select>
+            <option>Experience type</option>
+            <option>Food & culture</option>
+            <option>Adventure</option>
+            <option>Nature</option>
+            <option>History</option>
+        </select>
+
+        <select>
+            <option>Duration</option>
+            <option>Under 2 hours</option>
+            <option>2 - 5 hours</option>
+            <option>Full day</option>
+        </select>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <div>
+            <p>CURATED FOR YOU</p>
+            <h2>Popular experiences</h2>
+            <span>Things worth adding to your travel plans.</span>
+        </div>
+
+        <div class="section-actions">
+            <a href="#">View all <i class="fa-solid fa-arrow-right"></i></a>
+
+            <div class="slider-arrows">
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="card-slider">
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="./images/m_1.jpg" alt="Chennai experience">
+
+                <span class="image-label">POPULAR</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="card-content">
+
+                <span class="tag">CITY EXPERIENCE</span>
+
+                <h3>Discover Chennai</h3>
+
+                <p>Explore the city's culture, streets and hidden stories.</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.8</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹1,200</strong>
+                    <a href="#">Explore</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="./images/m_2.jpg" alt="Mahabalipuram experience">
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="card-content">
+
+                <span class="tag">CULTURE</span>
+
+                <h3>Mahabalipuram Heritage</h3>
+
+                <p>Walk through ancient monuments and coastal history.</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.9</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹1,500</strong>
+                    <a href="#">Explore</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="./images/m3.jpg" alt="Tamil cooking class">
+
+                <span class="image-label">TOP RATED</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="card-content">
+
+                <span class="tag">FOOD & CULTURE</span>
+
+                <h3>Tamil Cooking Class</h3>
+
+                <p>Learn traditional flavours and cook authentic local dishes.</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.9</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹1,800</strong>
+                    <a href="#">Explore</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="./images/m4.jpg" alt="Cultural experience">
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="card-content">
+
+                <span class="tag">LOCAL LIFE</span>
+
+                <h3>Authentic Cultural Experience</h3>
+
+                <p>Meet locals and experience traditions beyond the usual tourist path.</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.7</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹2,000</strong>
+                    <a href="#">Explore</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="banner">
+
+    <img src="./images/b1.jpg" alt="Travel destination">
+
+    <div class="banner-overlay"></div>
+
+    <div class="banner-content">
+
+        <p>TRAVEL DIFFERENTLY</p>
+
+        <h2>Make memories, not just plans.</h2>
+
+        <span>Find experiences that turn an ordinary trip into something unforgettable.</span>
+
+        <button>Start exploring <i class="fa-solid fa-arrow-right"></i></button>
+
+    </div>
+
+</section>
+
+
+<section class="section places-section">
+
+    <div class="section-heading">
+
+        <div>
+            <p>EXPLORE THE WORLD</p>
+            <h2>Discover beautiful destinations</h2>
+            <span>Places that deserve a spot on your travel list.</span>
+        </div>
+
+        <div class="section-actions">
+
+            <a href="#">View destinations <i class="fa-solid fa-arrow-right"></i></a>
+
+            <div class="slider-arrows">
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="place-slider">
+
+        <div class="place-card">
+            <img src="./images/sec6_1.jpg" alt="Bali">
+
+            <div class="place-info">
+                <div>
+                    <h3>Rome</h3>
+                    <p>Italy</p>
+                </div>
+
+                <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+        </div>
+
+
+        <div class="place-card">
+            <img src="./images/sec6_2.jpg" alt="London">
+
+            <div class="place-info">
+                <div>
+                    <h3>Paris</h3>
+                    <p>France</p>
+                </div>
+
+                <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+        </div>
+
+
+        <div class="place-card">
+            <img src="./images/sec6_3.jpg" alt="Paris">
+
+            <div class="place-info">
+                <div>
+                    <h3>Las Vegas</h3>
+                    <p>United Stated</p>
+                </div>
+
+                <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+        </div>
+
+
+        <div class="place-card">
+            <img src="./images/sec6_4.jpg" alt="Las Vegas">
+
+            <div class="place-info">
+                <div>
+                    <h3>London</h3>
+                    <p>UK</p>
+                </div>
+
+                <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="stats-section">
+
+    <div class="stat">
+        <i class="fa-solid fa-earth-americas"></i>
+        <div>
+            <h3>500+</h3>
+            <p>Destinations</p>
+        </div>
+    </div>
+
+    <div class="stat">
+        <i class="fa-solid fa-hotel"></i>
+        <div>
+            <h3>2,000+</h3>
+            <p>Places to stay</p>
+        </div>
+    </div>
+
+    <div class="stat">
+        <i class="fa-solid fa-star"></i>
+        <div>
+            <h3>50K+</h3>
+            <p>Traveller reviews</p>
+        </div>
+    </div>
+
+    <div class="stat">
+        <i class="fa-solid fa-face-smile"></i>
+        <div>
+            <h3>100K+</h3>
+            <p>Happy travellers</p>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="section stays-section">
+
+    <div class="section-heading">
+
+        <div>
+            <p>REST EASY</p>
+            <h2>Top-rated stays</h2>
+            <span>Comfortable places to stay after a day of exploring.</span>
+        </div>
+
+        <div class="section-actions">
+
+            <a href="#">View all stays <i class="fa-solid fa-arrow-right"></i></a>
+
+            <div class="slider-arrows">
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="stay-slider">
+
+        <div class="stay-card">
+
+            <div class="stay-image">
+
+                <img src="./images/h1.jpg" alt="Scenic resort">
+
+                <span class="stay-badge">TOP RATED</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="stay-content">
+
+                <span>RESORT</span>
+
+                <h3>Scenic Resort</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Beachside location</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.8</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹4,500</strong>
+                    <a href="#">View stay</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="stay-card">
+
+            <div class="stay-image">
+
+                <img src="./images/h2.jpg" alt="Urban stay">
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="stay-content">
+
+                <span>HOTEL</span>
+
+                <h3>Urban Stay</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> City centre</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.7</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹3,200</strong>
+                    <a href="#">View stay</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="stay-card">
+
+            <div class="stay-image">
+
+                <img src="./images/h3.jpg" alt="City center hotel">
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="stay-content">
+
+                <span>CITY HOTEL</span>
+
+                <h3>City Center</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Near attractions</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.6</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹3,800</strong>
+                    <a href="#">View stay</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="stay-card">
+
+            <div class="stay-image">
+
+                <img src="./images/h4.jpg" alt="Boutique stay">
+
+                <span class="stay-badge">NEW</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="stay-content">
+
+                <span>BOUTIQUE</span>
+
+                <h3>Boutique Stay</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Quiet neighbourhood</p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <small>4.9</small>
+                </div>
+
+                <div class="card-bottom">
+                    <strong>From ₹4,200</strong>
+                    <a href="#">View stay</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="banner second-banner">
+
+    <img src="./images/b3.jpg" alt="Travel experience">
+
+    <div class="banner-overlay"></div>
+
+    <div class="banner-content">
+
+        <p>YOUR JOURNEY STARTS HERE</p>
+
+        <h2>See the world from a different perspective.</h2>
+
+        <span>From hidden corners to iconic landmarks, discover places that stay with you.</span>
+
+        <button>Explore experiences <i class="fa-solid fa-arrow-right"></i></button>
+
+    </div>
+
+</section>
+
+
+<section class="section popular-section">
+
+    <div class="section-heading">
+
+        <div>
+            <p>TRAVEL YOUR WAY</p>
+            <h2>Find what inspires you</h2>
+            <span>Choose an experience and start planning your next adventure.</span>
+        </div>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+        <div class="feature-box">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+
+            <h3>Local food</h3>
+
+            <p>
+                Taste authentic dishes and discover the stories behind
+                local flavours.
+            </p>
+
+            <a href="#">Explore food <i class="fa-solid fa-arrow-right"></i></a>
+
+        </div>
+
+
+        <div class="feature-box">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-person-hiking"></i>
+            </div>
+
+            <h3>Outdoor adventures</h3>
+
+            <p>
+                From scenic trails to exciting activities, find something
+                for every kind of explorer.
+            </p>
+
+            <a href="#">Find adventures <i class="fa-solid fa-arrow-right"></i></a>
+
+        </div>
+
+
+        <div class="feature-box">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-gem"></i>
+            </div>
+
+            <h3>Hidden gems</h3>
+
+            <p>
+                Go beyond the famous attractions and discover places
+                fewer travellers know about.
+            </p>
+
+            <a href="#">Discover gems <i class="fa-solid fa-arrow-right"></i></a>
+
+        </div>
+
+
+        <div class="feature-box">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-camera-retro"></i>
+            </div>
+
+            <h3>Picture-perfect places</h3>
+
+            <p>
+                Find beautiful locations that deserve to be captured
+                and remembered.
+            </p>
+
+            <a href="#">View places <i class="fa-solid fa-arrow-right"></i></a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="inspiration-section">
+
+    <div class="section-heading">
+
+        <div>
+            <p>TRAVEL INSPIRATION</p>
+            <h2>Ideas for your next journey</h2>
+            <span>A little inspiration can lead to a great adventure.</span>
+        </div>
+
+        <a href="#" class="simple-link">
+            View all <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+
+    <div class="inspiration-grid">
+
+        <article class="inspiration-card">
+
+            <div class="inspiration-image">
+                <img src="./images/S1.jpg" alt="Travel inspiration">
+            </div>
+
+            <div class="inspiration-content">
+                <span>TRAVEL GUIDE</span>
+                <h3>How to make your next trip more memorable</h3>
+                <p>Simple ideas for experiencing a destination beyond the usual checklist.</p>
+                <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </article>
+
+
+        <article class="inspiration-card">
+
+            <div class="inspiration-image">
+                <img src="./images/s2.jpg" alt="London travel">
+            </div>
+
+            <div class="inspiration-content">
+                <span>DESTINATIONS</span>
+                <h3>Places that belong on your travel list</h3>
+                <p>Explore cities, cultures and experiences waiting to be discovered.</p>
+                <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </article>
+
+
+        <article class="inspiration-card">
+
+            <div class="inspiration-image">
+                <img src="./images/s3.jpg" alt="Paris travel">
+            </div>
+
+            <div class="inspiration-content">
+                <span>TRAVEL TIPS</span>
+                <h3>Plan less, experience more</h3>
+                <p>Make room for spontaneous moments and unexpected discoveries.</p>
+                <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <p>STAY INSPIRED</p>
+
+        <h2>Get travel ideas in your inbox.</h2>
+
+        <span>
+            Discover destinations, experiences and travel inspiration
+            delivered to you.
+        </span>
+
+    </div>
+
+    <div class="newsletter-form">
+
+        <input type="email" placeholder="Enter your email address">
+
+        <button>Subscribe</button>
+
+    </div>
+
+</section>
+
+
+<section class="final-section">
+
+    <div>
+        <p>YOUR NEXT ADVENTURE</p>
+
+        <h2>
+            There is always another place to discover.
+        </h2>
+
+        <span>
+            Start exploring and find somewhere worth remembering.
+        </span>
+    </div>
+
+    <button>
+        Explore now
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+                <i class="fa-regular fa-compass"></i>
+                <strong>Payanam</strong>
+            </div>
+
+            <p>
+                Discover places, experiences and stays that make
+                every journey worth remembering.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="#">Destinations</a>
+            <a href="#">Experiences</a>
+            <a href="#">Hotels</a>
+            <a href="#">Restaurants</a>
+            <a href="#">Attractions</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Travel</h4>
+
+            <a href="#">Travel guides</a>
+            <a href="#">Travel tips</a>
+            <a href="#">Inspiration</a>
+            <a href="#">Saved places</a>
+            <a href="#">Plan a trip</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>About</h4>
+
+            <a href="#">About Payanam</a>
+            <a href="#">Contact us</a>
+            <a href="#">Careers</a>
+            <a href="#">Help center</a>
+            <a href="#">Partner with us</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>© 2026 Payanam. All rights reserved.</p>
+
+        <div>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
